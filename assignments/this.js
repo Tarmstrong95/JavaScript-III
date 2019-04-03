@@ -17,21 +17,41 @@
 
 // Principle 1
 
-// code example for Window Binding
-this
+// // code example for Window Binding
+// this
 
-// Principle 2
+// // Principle 2
 
-// code example for Implicit Binding
-Object.this
+// // code example for Implicit Binding
+// Object.this
 
-// Principle 3
+// // Principle 3
 
-// code example for New Binding
-variable = new Object(stuff)
-variable.stuff == this.stuff
-// Principle 4
+// // code example for New Binding
+// variable = new Object(stuff)
+// variable.stuff == this.stuff
+// // Principle 4
 
-// code example for Explicit Binding
-Object.function.call(Object);
-Object.function.apply(Object);
+// // code example for Explicit Binding
+// Object.function.call(Object);
+// Object.function.apply(Object);
+
+
+
+
+
+
+
+
+// function Bitch(name, height, ass){
+//     this.name = name;
+//     this.height = height;
+//     this.ass = ass;
+// }
+// Bitch.prototype.clap = function(){
+//     return `${this.name}, clap that ${this.ass} ass`;
+// }
+
+// const efrain = new Bitch("efrain", "2inches", "fat");
+
+// console.log(efrain.clap())
